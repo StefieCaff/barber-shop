@@ -1,0 +1,70 @@
+.section-about{
+display: flex;
+width: 1280px;
+height: 705px;
+border: 5px solid #f44336;
+}
+
+.about-img-wrapper{
+  display:flex;
+}
+
+.about-img-shave,
+.about-img-cut{
+  width: 270px;
+  height: 445px;
+border: 5px solid #f44336;
+}
+
+.about-img-shave{
+  background-image: url("./images/about-beard-trim.jpg");
+  margin-right: 15px;
+}
+
+.about-img-cut{
+  background-image: url("./images/about-hair-cut.jpg");
+}
+
+.about-tex-info{
+ display: flex;
+ flex-direction:column;
+}
+
+.about-styling{
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #303030;
+}
+
+.about-heading{
+font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  color: #303030;
+}
+
+.contact-us-button{
+  border: 1px solid #FF6C00;
+  border-radius: 25px;
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+}
+
+
+.white-button{
+padding: 12px 25px 12px 25px;
+}
